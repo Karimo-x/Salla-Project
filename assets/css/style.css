@@ -293,6 +293,7 @@ main .s3 .s3-top a , main .s5 .s5-top a , main .s6 .s6-top a{  /* Button at s3 s
 
 
 .s3 .container-s3 .s3-card{
+    width: 100%;
     position: relative;
     border-radius: 5px;
     background-color: #FFFFFF;
@@ -300,7 +301,7 @@ main .s3 .s3-top a , main .s5 .s5-top a , main .s6 .s6-top a{  /* Button at s3 s
 } 
 
 .s3 .container-s3 .s3-card img.s3-card-img{
-    width: 100%; 
+    width: 200px;
 }
 
 .s3 .container-s3 .s3-card .span1{
@@ -626,14 +627,16 @@ main .s7 .container-s7{
     justify-content: center;
     text-align: center;
     gap: 24px;
+    background-color: #62D0B6;
 }
 
 main .s7 .container-s7 .card{
     padding: 32px 56px;
+    background-color: #62D0B6;
 }
 
 main .s7 .container-s7 .card img{
-    width: 100%;
+    width: 170px;
 }
 
 main .s7 .container-s7 .card:nth-child(1){
@@ -789,9 +792,9 @@ main .s9 .container-s9 .card .review .quotes svg{
 }
 
 main .s9 .container-s9 .card .review .stars svg{
-width: 13px;
-height: 13px;
-color: #FFC62A;
+    width: 13px;
+    height: 13px;
+    color: #FFC62A;
 }
 
 main .s9 .container-s9 .card .s9-container-txt p.p1{
@@ -1032,7 +1035,16 @@ main .s3{
 
 .s3 .container-s3{
     justify-items: center;
-    grid-template-columns: 1fr;   
+    grid-template-columns: 1fr;  
+    text-align: center; 
+}
+
+.s3 .container-s3 .s3-card img.s3-card-img{
+    width: 255px;
+}
+
+.discount{
+    left: 75px;
 }
 
 main .s4{
