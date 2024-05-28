@@ -408,6 +408,7 @@ color: #FFFFFF;
 }
 
 main .s4{
+    margin-top: 30px;
     background-image: url(../img/banner2.png);
     height: 500px;
     display: flex;
@@ -663,6 +664,7 @@ main .s7 .container-s7 .card p{
     font-size: 0.875rem;
     line-height: 16.60px;
     color: #666666;
+    padding: 0 20px;
 }
 
 main .s7 .container-s7 .card .button-s7{
@@ -797,7 +799,7 @@ main .s9 .container-s9 .card .review .stars svg{
 }
 
 main .s9 .container-s9 .card .s9-container-txt p.p1{
-    width: 332px;
+    width: 210px;
     font-size: 1rem;
     line-height: 25px;
     color: #666666;
@@ -1059,6 +1061,7 @@ main .s4 .s4-left{
 
 main .s4 .s4-left .p1{
     margin-top: 50px;
+    background-color:#1d1f1fba;
 }
 
 main .s5{
@@ -1094,7 +1097,7 @@ main .s7 .container-s7 .card{
 
 main .s7 .container-s7 .card img{
     width: 280px;
-}
+}  
 
 main .s8 .s8-txt .h1{
     margin-bottom: 40px;
