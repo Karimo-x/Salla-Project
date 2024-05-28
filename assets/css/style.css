@@ -1092,7 +1092,7 @@ main .s7 .container-s7{
 }
 
 main .s7 .container-s7 .card{
-    padding: 0;
+    padding: 20px;
 }
 
 main .s7 .container-s7 .card img{
